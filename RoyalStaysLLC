@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoyalStaysLLC - Professional Corporate Housing</title>
+  <meta name="description" content="RoyalStaysLLC offers professional corporate housing for short-term and long-term stays.">
+  <meta name="keywords" content="corporate housing, short term rental, long term rental, professional housing">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffffff;
+      color: #000;
+    }
+    header {
+      background-color: #000;
+      color: #ffd700;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 10px 0;
+    }
+    nav {
+      background-color: #111;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #000;
+      border-bottom: 2px solid #ffd700;
+      padding-bottom: 10px;
+    }
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact-form button {
+      background-color: #000;
+      color: #ffd700;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RoyalStaysLLC</h1>
+    <p>Professional Corporate Housing | Short & Long Term Stays</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about">
+    <h2>About Isaiah Hicks</h2>
+    <p>Born and raised in Saint Louis, Missouri, I graduated from Belleville West High School with a passion for helping people in need. My mission is to make life easier for those who are traveling — whether for business, family, or relocation — by providing safe, stylish, and convenient living spaces.</p>
+    <p>I'm friendly, outgoing, and easy to communicate with. My core values are rooted in faith and personal growth: <strong>God first, Family, Mental Health, and Growth within yourself.</strong></p>
+  </section>
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>RoyalStaysLLC offers professional short-term and long-term corporate housing solutions. Whether you need a place for a few weeks or several months, we provide high-quality, fully furnished accommodations designed for comfort and convenience.</p>
+  </section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:Hicksisaiah61@gmail.com">Hicksisaiah61@gmail.com</a></p>
+    <p>Business Email: <a href="mailto:RoyalStaysLLC@gmail.com">RoyalStaysLLC@gmail.com</a></p>
+    <p>Phone: <a href="tel:3147575097">(314) 757-5097</a></p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 RoyalStaysLLC | All rights reserved.</p>
+  </footer>
+</body>
+</html>
